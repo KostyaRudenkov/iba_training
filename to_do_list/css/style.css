@@ -1,0 +1,131 @@
+body {
+    background-color: aliceblue;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2em;
+    color: lightslategrey;
+}
+
+.wrapper {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.add-task-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.fa-angle-down,
+.fa-circle,
+.fa-check-circle,
+.fa-times {
+    position: absolute;
+    top: 10%;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.fa-circle,
+.fa-check-circle {
+    top: 0;
+    left: 0;
+}
+
+.fa-check-circle {
+    color: green;
+}
+
+.fa-times {
+    top: 0;
+    right: 5px;
+}
+
+.input-add-task-description {
+    width: 85%;
+    line-height: 30px;
+    font-size: 25px;
+    padding: 15px;
+    padding-left: 38px;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width .7s ease-in-out;
+    box-sizing: border-box;
+}
+
+.input-add-task-description:focus {
+    border-color: green;
+    width: 100%;
+}
+
+.input-add-task-description::placeholder {
+    color: lightgray;
+    opacity: .8;
+}
+
+.tasks-list {
+    margin: 0;
+    padding: 0;
+}
+
+.task-item {
+    position: relative;
+    padding: 0 38px;
+    font-size: 25px;
+    list-style: none;
+    color: darkcyan;
+}
+
+/* .tasks-list .task-item:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+} */
+
+.tasks-list .task-item {
+    border-bottom: 1px solid lightgray;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    color: gray;
+    font-size: 18px;
+}
+
+.btn-control-panel {
+    font-size: 16px;
+    border: none;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}
+
+.active-complete-btn-group span {
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.btn-active-all:hover,
+.btn-complete-all:hover,
+.btn-clear-completed:hover {
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 7px 5px;
+}
