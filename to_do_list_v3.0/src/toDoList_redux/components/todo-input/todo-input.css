@@ -1,0 +1,54 @@
+.add-task-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-add-task-description {
+    width: 100%;
+    font-size: 20px;
+    padding: 8px 10% 12px 30px;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-radius: 7px 7px 0 0;
+    border-bottom: 1px solid lightgray;
+    box-sizing: border-box;
+}
+
+.input-add-task-description:focus {
+    border-color: rgb(110, 157, 245);
+}
+
+.input-add-task-description::placeholder {
+    font-size: 80%;
+    color: lightgray;
+    opacity: .8;
+}
+
+.fa-angle-down,
+.fa-plus {
+    position: absolute;
+    top: 0;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.fa-angle-down {
+    top: 14px;
+    left: 12px;
+}
+
+.fa-plus {
+    top: 6px;
+    right: 3px;
+    padding: 7px;
+    color: rgb(110, 157, 245);
+}
+
+.fa-plus:hover {
+    transition: 0.3s all;
+    color: rgb(110, 157, 245);
+    text-shadow: 7px -3px rgba(55, 55, 255, 0.2);
+}

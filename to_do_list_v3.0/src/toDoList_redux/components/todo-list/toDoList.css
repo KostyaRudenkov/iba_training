@@ -1,0 +1,8 @@
+.tasks-list .task-item {
+    border-bottom: 1px solid lightgray;
+}
+
+.tasks-list {
+    margin: 0;
+    padding: 0;
+}

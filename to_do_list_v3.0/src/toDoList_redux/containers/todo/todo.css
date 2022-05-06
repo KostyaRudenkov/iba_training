@@ -1,0 +1,10 @@
+.wrapper {
+    width: 100%;
+    max-width: 500px;
+    margin: 5px auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 3px 3px 5px 1px rgba(55, 55, 255, 0.2);
+    box-sizing: border-box;
+}
