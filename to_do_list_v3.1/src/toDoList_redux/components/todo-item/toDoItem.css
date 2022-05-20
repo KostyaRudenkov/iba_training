@@ -1,0 +1,97 @@
+.fa-circle,
+.fa-trash,
+.fa-check-circle {
+    position: absolute;
+    top: 0;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.fa-circle,
+.fa-check-circle {
+    left: 0;
+    padding: 14px 10px 11px 3px;
+}
+
+.fa-check-circle {
+    color: rgb(110, 157, 245);
+    background: rgb(253, 250, 220);
+}
+
+.fa-trash {
+    right: -4px;
+    padding: 14px 10px 15px 3px;
+}
+
+.fa-trash:hover {
+    color: rgb(252, 104, 104);
+}
+
+.task-item {
+    position: relative;
+    height: 50px;
+    padding: 0 38px;
+    font-size: 25px;
+    list-style: none;
+    color: darkcyan;
+}
+
+.tasks-list .task-item {
+    border-bottom: 1px solid lightgray;
+}
+
+.task-description {
+    padding: 14px 9px 13px 0px;
+    margin: 0;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.line-through {
+    color: lightgray;
+    text-decoration: line-through;
+    background: linear-gradient(to right, rgb(253, 251, 227) 50%, white);
+}
+
+.selection-mode-for-tasks,
+.selection-mode-for-tasks:hover {
+    background: linear-gradient(to right, rgb(247, 247, 247) 100%, white);
+}
+
+.line-through-edit-mode,
+.line-through-edit-mode:hover {
+    background: linear-gradient(to right, rgb(255, 221, 221) 100%, white);
+}
+
+.fa-square,
+.fa-check-square,
+.counter-tasks {
+    position: absolute;
+    top: 0;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.counter-tasks {
+    left: 0;
+    color: rgb(207, 207, 207);
+    padding: 11px 10px 14px 10px;
+}
+
+.fa-square,
+.fa-check-square {
+    right: -4px;
+    padding: 14px 10px 15px 3px;
+}
+
+.fa-square {
+    color: rgb(223, 223, 223);
+}
+
+.fa-check-square {
+    color: rgb(252, 104, 104);
+}
+
+.option-item:last-child {
+    border-bottom: none;
+}

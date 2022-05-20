@@ -1,0 +1,87 @@
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    color: gray;
+    font-size: 15px;
+}
+
+.number-items-left {
+    margin: 12px 0 12px 14px;
+}
+
+.options {
+    position: relative;
+    right: 0;
+    bottom: 0;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.fa-bars {
+    padding-right: 11px;
+}
+
+.fa-bars:hover {
+    transition: 0.3s all;
+    color: rgb(110, 157, 245);
+    text-shadow: 7px -3px rgba(55, 55, 255, 0.2);
+}
+
+.items-left {
+    font-size: 20px;
+    font-weight: 600;
+    color: lightcoral;
+}
+
+.disabled {
+    display: none;
+}
+
+.active-complete-btn-group {
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    padding: 3px;
+    margin: 5px 0;
+}
+
+.active-complete-btn-group button {
+    width: 90px;
+    padding: 6px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.active-complete-btn-group button:not(:last-child) {
+    margin-right: 15px;
+}
+
+.fa-sign-out-alt,
+.fa-trash-alt {
+    padding: 0 5px;
+}
+
+.fa-trash-alt {
+    color: rgb(252, 104, 104);
+}
+
+.fa-sign-out-alt {
+    color: rgb(8, 192, 32);
+}
+
+.active-complete-btn-group button:first-child:hover {
+    border-color: rgb(252, 104, 104);
+    color: rgb(252, 104, 104);
+}
+
+.btn-control-panel {
+    font-size: 14px;
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+}

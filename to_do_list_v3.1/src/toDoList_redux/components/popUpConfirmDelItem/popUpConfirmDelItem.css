@@ -1,0 +1,46 @@
+.popup-del-confirm {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    width: 65px;
+    height: 43px;
+    top: 0;
+    right: 5px;
+    padding-top: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.fa-times,
+.fa-check {
+    cursor: pointer;
+}
+
+.fa-times {
+    color: rgb(110, 157, 245);
+    padding-right: 13px;
+}
+
+.fa-times:hover {
+    transition: 0.3s all;
+    color: rgb(110, 157, 245);
+    text-shadow: 7px -3px rgba(55, 55, 255, 0.2);
+}
+
+.fa-check:hover {
+    transition: 0.3s all;
+    text-shadow: 7px -3px rgba(55, 55, 255, 0.2);
+}
+
+.fa-check,
+.fa-close-del-confirm {
+    width: 50%;
+    padding: 14px;
+    text-align: center;
+}
+
+.fa-check {
+    padding-right: 0;
+    color: rgb(8, 192, 32);
+}

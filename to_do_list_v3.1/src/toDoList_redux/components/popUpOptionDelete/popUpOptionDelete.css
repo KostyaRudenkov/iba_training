@@ -1,0 +1,25 @@
+.options-for-delete {
+    position: absolute;
+    width: 180px;
+    top: 1px;
+    right: 18px;
+    padding: 0;
+    list-style: none;
+    border: 1px solid lightgray;
+    border-radius: 10px 0 10px 10px;
+    background-color: white;
+    box-shadow: 4px 5px 5px 1px rgba(189, 189, 255, 0.2);
+}
+
+.option-item {
+    height: 15px;
+    padding: 15px 5px 12px 15px;
+    border-top-left-radius: 10px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+}
+
+.option-item:hover {
+    transition: 0.3s all;
+    color: rgb(110, 157, 245);
+}
